@@ -35,6 +35,17 @@ textarea{
     box-sizing: border-box;
 }
 
+#bottone{
+
+    width: 200px;
+    height: 75px;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    text-align:center;
+
+
+}
+
 #result{
 
     font-size: 70px;
