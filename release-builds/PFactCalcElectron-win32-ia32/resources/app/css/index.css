@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,600;0,700;1,900&display=swap');
+
+body{
+    
+    
+    background: linear-gradient(90deg,#943cff 0%,#dd45d3 40.13%,#fc9a57 90%);
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;;
+}
+
+textarea{
+  height: 95px;;
+  width: 800px;
+  border: 3px solid #cccccc;
+  align-content: center;
+  padding: 5px;
+  font-size:50px;
+  color: black;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial;
+  background-image:url("assets/background1.gif"); 
+  resize: none;
+  white-space: nowrap;
+  margin-right:0.5px;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#bottone{
+
+    width: 200px;
+    height: 75px;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    text-align:center;
+
+
+}
+
+#result{
+
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
