@@ -6,10 +6,13 @@ function createWindow() {
         height: 600,
         webPreferences: {
             nodeIntegration: true,
-            devTools: false
+            devTools: false,
+        
         
     }
     })
-    win.loadFile('index.html')
+    win.setMenuBarVisibility(false)
+    win.loadFile('index.html'),
+    win.setResizable(false)
 }
 app.on('ready', createWindow)

@@ -4,8 +4,13 @@
 	"description": "",
 	"main": "main.js",
 	"scripts": {
-		"start": "electron ."
+		"start": "electron .",
+		"package-win": "electron-packager . PFactCalcElectron --overwrite --asar=false --platform=win32 --arch=ia32 --icon=pfactcalc.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"PFactCalcElectron\""
 	},
 	"author": "Silvio Santoriello",
-	"license": ""
+	"license": "",
+	"devDependencies": {
+		"electron": "^8.1.1",
+		"electron-packager": "^14.2.1"
+	}
 }
