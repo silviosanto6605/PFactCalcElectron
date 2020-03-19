@@ -15,4 +15,5 @@ function createWindow() {
     win.loadFile('index.html'),
     win.setResizable(false)
 }
+
 app.on('ready', createWindow)
