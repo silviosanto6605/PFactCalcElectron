@@ -13,4 +13,4 @@ steps:
 - script: |
     npm install
     npm package-win
-  displayName: 'npm install and build'
+  displayName: "Installa le dipendenze e fa il build dell'app"
