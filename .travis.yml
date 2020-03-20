@@ -1,0 +1,10 @@
+os: windows
+language: node_js
+node_js:
+  - 12.16.1
+
+install:
+  - npm install
+
+script:
+  - electron-packager . PFactCalcElectron --overwrite --asar=true --platform=win32 --arch=ia32 --icon=pfactcalc.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"PFactCalcElectron\"
