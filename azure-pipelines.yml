@@ -10,7 +10,9 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- script: |
-    npm install
-    electron-packager . PFactCalcElectron --overwrite --asar=false --platform=win32 --arch=ia32 --icon=pfactcalc.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"PFactCalcElectron\"
+- task: Npm@1
+  inputs:
+    command: 'install'
     
+- script: |
+    npm run package-win
