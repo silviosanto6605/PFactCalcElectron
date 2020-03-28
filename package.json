@@ -5,7 +5,8 @@
 	"main": "main.js",
 	"scripts": {
 		"start": "electron .",
-		"package-win": "electron-packager . PFactCalcElectron --overwrite --asar=false --platform=win32 --arch=ia32 --icon=pfactcalc.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"PFactCalcElectron\""
+		"package-win": "electron-packager . PFactCalcElectron --overwrite --asar=false --platform=win32 --arch=ia32 --icon=pfactcalc.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"PFactCalcElectron\"",
+		"package-linux": "electron-packager . PFactCalcElectron --overwrite --asar=true --platform=linux --arch=x64 --icon=pfactcalc.png --prune=true --out=release-builds"
 	},
 	"author": "Silvio Santoriello",
 	"license": "",
